@@ -1,7 +1,7 @@
 
 body {
     
-    background-color: white;
+    background-color: black;
 }
 
 .container{
@@ -13,10 +13,10 @@ body {
     justify-content: center;
 }
 .box {
-    width: 156px;
-    height: 205px;
+    width: 100px;
+    height: 100px;
     background: gray;
-    margin: 0px 80px;
+    margin: 0px 40px;
     transition: 0.5s;
 }
 
@@ -37,7 +37,6 @@ body {
 }
 
 .btn {
-    text-decoration: #FFF;
     background: none;
     border: 2px solid #2c3e50;
     font-size: 14px;
@@ -68,44 +67,3 @@ body {
     transform-origin: 0 0;
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
 }
-
-.btn1::before {
-    transform: scaleY(0);
-}
-
-.btn1:hover::before {
-    transform: scaleY(1);
-}
-
-.btn2::before {
-    transform: scaleY(0);
-}
-
-.btn2:hover::before {
-    transform: scaleY(1);
-}
-
-
-
-.btn3::before {
-    transform: scaleY(0);
-}
-
-.btn3:hover::before {
-    transform: scaleY(1);
-}
-
-
-.btn4::before {
-    transform: scaleY(0);
-}
-
-.btn4:hover::before {
-    transform: scaleY(1);
-}
-
-
-
-
-
-
